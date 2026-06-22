@@ -1,0 +1,48 @@
+# Obsidian vault .gitignore
+
+# ========== Claude 插件配置（外部仓库，不提交）==========
+.claude/
+
+# ========== Obsidian 工作区/缓存 ==========
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+
+# Obsidian 插件二进制文件（不提交）
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
+.obsidian/plugins/*/data.json
+
+# ========== PDF 和大文件 ==========
+*.pdf
+*.zip
+*.exe
+*.dmg
+*.pkg
+*.iso
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+*.mp3
+*.flac
+
+# ========== 系统垃圾文件 ==========
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# ========== 回收站 ==========
+.trash/
+
+# ========== 第三方缓存 ==========
+node_modules/
+.vite/
+dist/
+build/
+.env
+*.log

@@ -1,0 +1,22 @@
+topic: "中医书库"
+vault_path: "知识库/中医书库"
+skills:
+  - name: 中医基础理论检索
+    id: 1
+  - name: 四诊辨证诊断
+    id: 2
+  - name: 中药材查询应用
+    id: 3
+  - name: 经典方剂调取配伍
+    id: 4
+  - name: 经络穴位实操应用
+    id: 5
+  - name: 九种体质辨识调理
+    id: 6
+  - name: 各科常见病症诊疗
+    id: 7
+  - name: 食疗药膳日常康养
+    id: 8
+type: tcm
+llm_wiki_plan: "Obsidian-LLMWIKI中医知识库AI应用方案.md"
+created: 2026-06-22

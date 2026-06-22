@@ -1,0 +1,59 @@
+{
+  "jobs": 1,
+  "tasks": [
+    {
+      "id": "03-wei-zheng-yi-de",
+      "promptFiles": ["prompts/03-scene-wei-zheng-yi-de.md"],
+      "image": "03-scene-wei-zheng-yi-de.png",
+      "provider": "dashscope",
+      "model": "qwen-image-2.0-pro",
+      "ar": "3:2",
+      "quality": "2k"
+    },
+    {
+      "id": "04-xue-si-jie-he",
+      "promptFiles": ["prompts/04-scene-xue-si-jie-he.md"],
+      "image": "04-scene-xue-si-jie-he.png",
+      "provider": "dashscope",
+      "model": "qwen-image-2.0-pro",
+      "ar": "3:2",
+      "quality": "2k"
+    },
+    {
+      "id": "05-ren-zhe-ai-ren",
+      "promptFiles": ["prompts/05-scene-ren-zhe-ai-ren.md"],
+      "image": "05-scene-ren-zhe-ai-ren.png",
+      "provider": "dashscope",
+      "model": "qwen-image-2.0-pro",
+      "ar": "3:2",
+      "quality": "2k"
+    },
+    {
+      "id": "06-jian-xian-si-qi",
+      "promptFiles": ["prompts/06-scene-jian-xian-si-qi.md"],
+      "image": "06-scene-jian-xian-si-qi.png",
+      "provider": "dashscope",
+      "model": "qwen-image-2.0-pro",
+      "ar": "3:2",
+      "quality": "2k"
+    },
+    {
+      "id": "07-xue-er-bu-yan",
+      "promptFiles": ["prompts/07-scene-xue-er-bu-yan.md"],
+      "image": "07-scene-xue-er-bu-yan.png",
+      "provider": "dashscope",
+      "model": "qwen-image-2.0-pro",
+      "ar": "3:2",
+      "quality": "2k"
+    },
+    {
+      "id": "08-zhi-dao-ju-de",
+      "promptFiles": ["prompts/08-scene-zhi-dao-ju-de.md"],
+      "image": "08-scene-zhi-dao-ju-de.png",
+      "provider": "dashscope",
+      "model": "qwen-image-2.0-pro",
+      "ar": "2:3",
+      "quality": "2k"
+    }
+  ]
+}
