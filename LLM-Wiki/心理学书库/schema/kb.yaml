@@ -1,0 +1,23 @@
+topic: "心理学书库"
+vault_path: "LLM-Wiki/心理学书库"
+skills:
+  - name: 基础心理理论检索
+    id: 1
+  - name: 临床症状与诊断判定
+    id: 2
+  - name: 心理咨询会谈技能
+    id: 3
+  - name: 心理疗法实操应用
+    id: 4
+  - name: 情绪压力疏导调节
+    id: 5
+  - name: 心理危机干预处置
+    id: 6
+  - name: 人际婚恋家庭指导
+    id: 7
+  - name: 人格特质分析解读
+    id: 8
+books_count: 123
+type: psychology
+llm_wiki_plan: "Obsidian-LLMWIKI心理学库开发方案.md"
+created: 2026-06-22
