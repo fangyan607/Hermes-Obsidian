@@ -1,0 +1,52 @@
+topic: "新科技与应用"
+vault_path: "LLM-Wiki/新科技与应用"
+skills_count: 9
+type: tech
+categories:
+  - name: "世界模型与物理AI"
+    skills: ["Skill1"]
+  - name: "量子计算"
+    skills: ["Skill2"]
+  - name: "脑机接口"
+    skills: ["Skill3"]
+  - name: "人形机器人"
+    skills: ["Skill4"]
+  - name: "AI架构创新"
+    skills: ["Skill5"]
+  - name: "AI for Science"
+    skills: ["Skill6"]
+  - name: "能源与新材料"
+    skills: ["Skill7"]
+  - name: "生物医药科技"
+    skills: ["Skill8"]
+  - name: "网络与密码安全"
+    skills: ["Skill9"]
+skills:
+  - id: "Skill1"
+    name: "世界模型与物理AI"
+    trigger: "世界模型、物理AI、具身智能、空间智能"
+  - id: "Skill2"
+    name: "量子计算"
+    trigger: "量子计算、量子芯片、量子AI、拓扑量子"
+  - id: "Skill3"
+    name: "脑机接口"
+    trigger: "脑机接口、BCI、神经接口、脑芯片"
+  - id: "Skill4"
+    name: "人形机器人"
+    trigger: "人形机器人、具身机器人、双足机器人、仿生"
+  - id: "Skill5"
+    name: "AI架构创新"
+    trigger: "AI架构、扩散模型、MoE、基础模型"
+  - id: "Skill6"
+    name: "AI for Science"
+    trigger: "AI for Science、AI4S、科研自动化、药物发现"
+  - id: "Skill7"
+    name: "能源与新材料"
+    trigger: "清洁能源、电网技术、冷却材料、提锂"
+  - id: "Skill8"
+    name: "生物医药科技"
+    trigger: "mRNA疫苗、外泌体、精密发酵、个性化医疗"
+  - id: "Skill9"
+    name: "网络与密码安全"
+    trigger: "格密码学、后量子密码、AI安全"
+created: "2026-06-23"
