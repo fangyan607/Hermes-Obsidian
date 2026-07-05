@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中国医学百科全书_part05"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ Poisson分布有如下几个性质：$\textcircled{1}$其方差等于均数。$\
 
 Poisson分布数据的假设检验主要用了：$\textcircled{1}$Poisson分布拟合优度检验。步骤是先计算样本均数与方差，若两
 
-![](page=2,bbox=[70, 145, 369, 322])
+![](page=2,bbox=[70, 145, 369, 322])

@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part49"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ $ \textcircled{1} $《活人书》：哕逆。 $ \textcircled{2} $《笔花医�
 ## 94326 橘皮竹茹汤
 
 《得效》卷四。为《伤寒总病论》卷二“大橘皮汤”之异名。见该条。
-
+

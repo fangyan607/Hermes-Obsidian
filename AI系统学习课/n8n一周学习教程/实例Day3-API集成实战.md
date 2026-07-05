@@ -1,3 +1,8 @@
+---
+tags: [n8n, workflow, tutorial]
+created: 1782201956
+---
+
 # Day 3：API集成实战（3个实例）
 
 > ⏱ 预计学习时间：8个番茄钟（约3.5小时）

@@ -1,4 +1,6 @@
 ---
+tags: [psychology]
+
 title: "心理自助CBT书系（套装共五册）"
 category: 心理学
 type: psychology

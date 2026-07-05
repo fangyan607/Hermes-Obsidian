@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: 世界模型：AI从语言走向物理世界
 category: 世界模型与物理AI
 skill_tag: Skill1

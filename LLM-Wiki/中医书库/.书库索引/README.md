@@ -1,3 +1,8 @@
+---
+tags: [llm-wiki]
+created: 1782201956
+---
+
 # 中医书库索引中心
 
 > 本索引库基于《Obsidian-LLMWIKI中医知识库AI应用方案》构建

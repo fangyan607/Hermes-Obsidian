@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: film-shot-design
 description: |
   电影镜头设计法：从故事逻辑到影像逻辑的完整分镜设计方法论。

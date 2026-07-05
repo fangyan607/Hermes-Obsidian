@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中国医学百科全书_part17"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ type: tcm
 -，眼病 542
 
 -，淋病 544
-
+

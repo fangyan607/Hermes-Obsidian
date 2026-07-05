@@ -1,4 +1,6 @@
 ---
+tags: [psychology]
+
 title: "心理学 123 本 MD 书库 AI 检索开发利用方案"
 category: 心理学
 type: psychology

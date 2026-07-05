@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: poetic-body
 description: |
   雅克·勒考克的创造性剧场教学——从身体动作到诗意表达的动作分析体系。

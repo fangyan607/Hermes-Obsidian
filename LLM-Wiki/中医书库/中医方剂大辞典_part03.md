@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part03"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ type: tcm
 87031 舒筋活络膏 ... 521
 
 87032 舒筋调荣汤 ... 521
-
+

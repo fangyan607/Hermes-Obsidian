@@ -1,3 +1,8 @@
+---
+tags: [ai-learning, tutorial]
+created: 1782201956
+---
+
 # Day 6：Cloudflare Workers 无服务器函数
 
 > ⏱ 预计学习时间：8个番茄钟（约3.5小时）

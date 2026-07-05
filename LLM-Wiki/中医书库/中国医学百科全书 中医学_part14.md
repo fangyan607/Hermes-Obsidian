@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中国医学百科全书 中医学_part14"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ Scopolia acutangulus(C. Y. Wu et C. Chen) Hsiao 的根。主产于中国云南�
 人体试验：口服煎剂短期内可使尿量增加。
 
 ## 壶卢
-
+

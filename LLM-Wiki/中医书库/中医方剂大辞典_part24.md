@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part24"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ $ \textcircled{1} $《治痘全书》：口疮。 $ \textcircled{2} $《痘疹�
 【主治】筋疬，石疽。
 
 【加减】便燥者，加乳香一钱；便溏者，加煅牡蛎一钱。
-
+

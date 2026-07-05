@@ -1,3 +1,8 @@
+---
+tags: [storytelling, creative-writing]
+created: 1782244767
+---
+
 创意写作书系
 
 NOW WRITE! SCIENCE FICTION, FANTASY, AND HORROR Speculative Genre Exercises from Today's Best Writers and Teachers

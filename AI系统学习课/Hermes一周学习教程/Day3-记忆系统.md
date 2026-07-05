@@ -1,3 +1,8 @@
+---
+tags: [hermes, tutorial]
+created: 1782201956
+---
+
 # Day 3：记忆系统（MEMORY.md/USER.md）
 
 > ⏱ 预计学习时间：8个番茄钟（约3.5小时）

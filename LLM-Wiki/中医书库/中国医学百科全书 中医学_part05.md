@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中国医学百科全书 中医学_part05"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ type: tcm
 <div align="center">
 
 图12 同天符图
-
+

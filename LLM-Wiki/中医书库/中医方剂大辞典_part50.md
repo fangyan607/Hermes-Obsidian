@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part50"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ $\textcircled{1}$《金匮》：虚劳诸不足，风气百疾。 $ \textcircled
 ## 94624 薄荷汤
 
 【方源】《局方》卷十。
-
+

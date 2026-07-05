@@ -1,3 +1,8 @@
+---
+tags: [rhetoric, description]
+created: 1782244767
+---
+
 # 语法修辞六讲 (高葆泰著) (Z-Library)
 
 <!-- 第 1 页 -->

@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part08"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ type: tcm
 94752 鹧鸪酒 ··· 1455
 
 94753 鹧鸪菜 ··· 1455
-
+

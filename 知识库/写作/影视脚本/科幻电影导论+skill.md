@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: scifi-film-analysis
 description: |
   科幻电影分析法：从类型理论、文化编码到历史演变的系统性批评方法。

@@ -1,3 +1,8 @@
+---
+tags: [ai-learning, tutorial]
+created: 1782201956
+---
+
 # 16-Agent进阶实战与插件开发 · 费曼复习文档与试卷
 
 ---

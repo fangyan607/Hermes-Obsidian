@@ -1,4 +1,6 @@
 ---
+tags: [psychology]
+
 title: "逃避自由 - [美]E.弗洛姆"
 category: 心理学
 type: psychology

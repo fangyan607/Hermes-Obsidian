@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: save-the-cat-strikes-back
 description: |
   救猫咪反击战：从创意推销到剧本改写、从事业经营到心态管理的编剧实战工具书。

@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: camera-acting-method
 description: |
   镜头前表演法：从舞台到银幕的创造性调整，以"聆听"为核心的表演体系。

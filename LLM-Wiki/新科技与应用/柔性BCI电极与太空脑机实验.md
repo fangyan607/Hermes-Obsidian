@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: 柔性BCI电极与太空脑机实验
 category: 脑机接口
 skill_tag: Skill3

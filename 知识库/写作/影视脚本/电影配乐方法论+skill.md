@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: film-scoring-guide
 description: |
   电影配乐方法论：从电影制作流程到配乐创作、录制、商业运作的完整指南。

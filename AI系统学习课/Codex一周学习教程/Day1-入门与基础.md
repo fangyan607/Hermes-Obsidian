@@ -1,3 +1,8 @@
+---
+tags: [codex, tutorial]
+created: 1782201956
+---
+
 # Day 1：Codex CLI 入门与基础
 
 > ⏱ 预计学习时间：8个番茄钟（约3.5小时）

@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中国医学百科全书_part11"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ $$
 
 ## 死因别死亡率
 
-死因别死亡率(cause specific mortality)是1年内平均每10万人人口中死于某病的人数，是说明某种疾病或外伤对人民生命危害程度的统计指标。
+死因别死亡率(cause specific mortality)是1年内平均每10万人人口中死于某病的人数，是说明某种疾病或外伤对人民生命危害程度的统计指标。

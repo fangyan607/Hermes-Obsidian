@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: film-criticism-dai
 description: |
   基于现代电影理论的专业影片精读方法——9种理论框架×9部经典影片的批评实践。

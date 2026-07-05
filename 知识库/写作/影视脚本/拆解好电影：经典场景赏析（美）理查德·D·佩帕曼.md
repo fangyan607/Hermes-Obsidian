@@ -1,3 +1,8 @@
+---
+tags: [screenwriting, film]
+created: 1782244767
+---
+
 <div style='text-align: center;'><img src='https://maas-watermark-prod-new.cn-wlcb.ufileos.com/ocr%2Fcrop%2F2026050519174419679ba3b9344b38%2Fcrop_1_1777979990333.png?UCloudPublicKey=TOKEN_6df395df-5d8c-4f69-90f8-a4fe46088958&Signature=OJRv9wr1ASjfFUGUGxm3rs9jzpc%3D&Expires=1778584790' alt='OCR图片'/></div>
 
 <div style='text-align: center;'><img src='https://maas-watermark-prod-new.cn-wlcb.ufileos.com/ocr%2Fcrop%2F2026050519174419679ba3b9344b38%2Fcrop_2_1777979990338.png?UCloudPublicKey=TOKEN_6df395df-5d8c-4f69-90f8-a4fe46088958&Signature=QJOnrSf0GQZNeuKc8UxQ%2FFWB5l4%3D&Expires=1778584790' alt='OCR图片'/></div>

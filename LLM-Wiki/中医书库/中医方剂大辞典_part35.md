@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part35"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ $ \textcircled{2} $《成方便读》：青黛、川芎清肝火而疏肝郁，�
 【主治】牙齿风龋疼痛。
 
 ## 90218 蜀椒汤
-
+

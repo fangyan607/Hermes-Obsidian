@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part47"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ type: tcm
 ## 93736 僵蚕散
 
 【方源】《圣济总录》卷一三七。
-
+

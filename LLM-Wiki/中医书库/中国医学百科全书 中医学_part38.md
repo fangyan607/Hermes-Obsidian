@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中国医学百科全书 中医学_part38"
 category: 中医
 type: tcm

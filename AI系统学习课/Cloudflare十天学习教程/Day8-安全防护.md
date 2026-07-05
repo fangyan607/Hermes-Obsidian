@@ -1,3 +1,8 @@
+---
+tags: [ai-learning, tutorial]
+created: 1782201956
+---
+
 # Day 8：安全防护与 WAF
 
 > ⏱ 预计学习时间：8个番茄钟（约3.5小时）

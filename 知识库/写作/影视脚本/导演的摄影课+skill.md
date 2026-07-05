@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: cinematography-for-directors
 description: |
   导演与摄影师的协作指南——从前期筹备到后期完成的完整摄影创作流程。

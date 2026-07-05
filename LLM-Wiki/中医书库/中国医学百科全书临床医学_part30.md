@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中国医学百科全书临床医学_part30"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ T淋巴细胞输入法 对细胞免疫缺陷患者须补充T淋巴细胞，T细�
 
 心理治疗的主要种类 可归纳如下：
 
-(1) 精神动力学心理治疗。$\textcircled{1}$弗洛伊德精神分析治疗。$\textcircled{2}$新弗洛伊德精神分析治疗。$\textcircled{3}$荣格分析性心理治疗。
+(1) 精神动力学心理治疗。$\textcircled{1}$弗洛伊德精神分析治疗。$\textcircled{2}$新弗洛伊德精神分析治疗。$\textcircled{3}$荣格分析性心理治疗。

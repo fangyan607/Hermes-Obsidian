@@ -1,3 +1,8 @@
+---
+tags: [law, chinese-law]
+created: 1782201957
+---
+
 # 犯罪心理分析技能
 
 > 技能ID: criminal-psychology-profiling

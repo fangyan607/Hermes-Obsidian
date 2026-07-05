@@ -1,3 +1,8 @@
+---
+tags: [codex, tutorial]
+created: 1782201956
+---
+
 # Day 3：Codex vs Claude Code vs Cursor — 深度对比与选型指南
 
 > ⏱ 预计学习时间：8个番茄钟（约3.5小时）

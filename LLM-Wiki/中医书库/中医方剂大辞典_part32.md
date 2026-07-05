@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part32"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ $ \textcircled{1} $《济生》：肠风泻血不止。 $ \textcircled{2} $《�
 【方源】《圣济总录》卷九十八。
 
 【异名】榆白皮汤（《普济方》卷二一五）。
-
+

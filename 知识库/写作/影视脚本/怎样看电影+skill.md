@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: how-to-watch-movies
 description: |
   詹姆斯·莫纳科的经典电影分析体系——从艺术谱系到电影语言的深层观影方法论。

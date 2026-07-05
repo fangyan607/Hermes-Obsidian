@@ -1,3 +1,8 @@
+---
+tags: [llm-wiki]
+created: 1782201956
+---
+
 # Obsidian LLM-WIKI 中医MD知识库AI检索应用方案
 文档版本：V1.0
 适配环境：Obsidian + LLM-WIKI

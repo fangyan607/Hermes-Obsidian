@@ -1,3 +1,8 @@
+---
+tags: [law, chinese-law]
+created: 1782201957
+---
+
 # Legal KB -- LLM Wiki Workflow
 
 ## Topic Config

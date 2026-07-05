@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "O'reilly经典动物书套装(共10册)"
 category: 创造性思维
 type: creativity

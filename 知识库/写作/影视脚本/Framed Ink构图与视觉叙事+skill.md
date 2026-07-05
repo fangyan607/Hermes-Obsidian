@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: framed-ink-composition
 description: |
   用构图和视觉叙事讲述故事——从单幅静像到动态镜头的完整画面叙事体系。

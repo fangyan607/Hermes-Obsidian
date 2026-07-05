@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part02"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ type: tcm
 85460 紫金丹 317
 
 85461 紫金丹 317
-
+

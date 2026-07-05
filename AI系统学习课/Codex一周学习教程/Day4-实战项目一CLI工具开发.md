@@ -1,3 +1,8 @@
+---
+tags: [codex, tutorial]
+created: 1782201956
+---
+
 # Day 4：实战项目一 — 用 Codex 开发 CLI 工具
 
 > ⏱ 预计学习时间：8个番茄钟（约3.5小时）

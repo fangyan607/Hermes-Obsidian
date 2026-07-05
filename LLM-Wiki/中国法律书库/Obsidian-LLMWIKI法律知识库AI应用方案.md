@@ -1,3 +1,8 @@
+---
+tags: [law, chinese-law]
+created: 1782201957
+---
+
 # Obsidian LLM-WIKI 法律MD知识库AI检索应用方案
 
 **文档版本**：V1.0

@@ -1,3 +1,8 @@
+---
+tags: [learning-method]
+created: 1782201957
+---
+
 # Learning KB -- LLM Wiki Workflow
 
 ## Topic Config

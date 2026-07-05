@@ -1,3 +1,8 @@
+---
+tags: [ai-learning, tutorial]
+created: 1782201956
+---
+
 # 🚀 Cloudflare 十天学习教程
 
 > ⏱ 总学时：80个番茄钟（约34小时）

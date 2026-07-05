@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part56"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ $\textcircled{1}$《活人书》阴盛格阳，烦躁不欲饮水。$\textcircle
 【组成】枯白矾一两 黄丹一钱半（炒）麝香一字
 
 【用法】上为细末。干擦牙疳处，颊上。
-
+

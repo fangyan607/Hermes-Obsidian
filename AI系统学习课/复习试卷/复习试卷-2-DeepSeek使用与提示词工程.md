@@ -1,3 +1,8 @@
+---
+tags: [ai-learning, tutorial]
+created: 1782201956
+---
+
 # DeepSeek使用与提示词工程 - 费曼学习法复习文档 & 试卷
 
 ---

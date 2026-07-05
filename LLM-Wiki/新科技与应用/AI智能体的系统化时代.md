@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: AI智能体的系统化时代
 category: AI架构创新
 skill_tag: Skill5,Skill6

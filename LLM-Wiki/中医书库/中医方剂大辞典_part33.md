@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part33"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ type: tcm
 ## 【组成】蒴薯叶
 
 【用法】上烂捣，涂敷丹上。干即易之，以愈为度。
-
+

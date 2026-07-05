@@ -1,4 +1,6 @@
 ---
+tags: [psychology]
+
 title: "创造性：发现和发明的心理学 by 米哈伊·奇凯岑特米哈伊"
 category: 心理学
 type: psychology

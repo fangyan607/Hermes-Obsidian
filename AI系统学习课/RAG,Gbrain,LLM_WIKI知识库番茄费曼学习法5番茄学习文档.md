@@ -1,3 +1,8 @@
+---
+tags: [ai-learning, tutorial]
+created: 1782201956
+---
+
 # RAG / GBrain / LLM_WIKI 知识库 —— 5番茄对比学习
 
 > ⏱ 预计学习时间：5个番茄钟（25分钟×5）

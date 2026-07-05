@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中国医学百科全书临床医学_part26"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ $$
 $$
 \text {实 际 计算 心 表 面 积} \left(\mathrm {c m} ^ {2}\right) = 0. 7 0 2 \times \mathrm {L} (\mathrm {c m})
 $$
-
+

@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中国医学百科全书_part04"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ $$
 $$
 Z = \frac {\left| 5 . 3 \right| - 6 . 3}{\frac {1 . 1}{7} \sqrt {1 0 0}} = 9. 0 9
 $$
-
+

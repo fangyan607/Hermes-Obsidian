@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中国医学百科全书 中医学_part28"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ type: tcm
 加减地黄丸（《原机启微》）
 
 生地黄 熟地黄 牛膝 当归 积壳 杏仁 羌活 防风
-
+

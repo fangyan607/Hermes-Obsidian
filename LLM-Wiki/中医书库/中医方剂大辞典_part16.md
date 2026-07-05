@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part16"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ $ \textcircled{1} $《产育保庆集》：产后遍身疼痛者， $ \textcircl
 【方源】《普济方》卷二八一。
 
 【组成】坯子半两硫黄半两白矾一两半
-
+

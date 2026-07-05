@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: hero-journey
 description: |
   约瑟夫·坎贝尔的神话学对话录——发现单一神话与英雄旅程的永恒模式。

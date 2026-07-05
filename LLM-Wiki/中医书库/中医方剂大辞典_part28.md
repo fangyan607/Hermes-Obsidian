@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part28"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ $ \textcircled{2} $《金鉴》：肾虚火来烁金而喘急者。 $ \textcircl
 【用法】研烂，入朴消贴之。
 
 【主治】 切眼疾。
-
+

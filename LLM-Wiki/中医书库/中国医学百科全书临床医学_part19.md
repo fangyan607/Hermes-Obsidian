@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中国医学百科全书临床医学_part19"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ A 食管B.左支气管C.右支气管D.降主动脉
 
 <div align="center">
 
-右位主动脉弓示意图
+右位主动脉弓示意图

@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: practical-aesthetics-acting
 description: |
   大卫·马梅实践美学表演法——身体行动驱动真实表演的实用演员手册。

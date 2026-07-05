@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part14"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ $ \textcircled{1} $《伤寒论》：太阳病，桂枝证，医反下之，利�
 【主治】乳痈，吹乳。
 
 ## 84078 葱汁油
-
+

@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "processing代码本色"
 category: 创造性思维
 type: creativity

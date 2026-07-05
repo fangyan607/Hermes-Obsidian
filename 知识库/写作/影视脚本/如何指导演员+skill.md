@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: directing-actors
 description: |
   导演指导演员的完整方法——从结果式指导到情感自由释放的系统方法论。

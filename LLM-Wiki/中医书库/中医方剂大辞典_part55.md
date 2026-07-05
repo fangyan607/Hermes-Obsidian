@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part55"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ type: tcm
 【方源】《验方新编》卷十一。
 
 【组成】热糯米饭
-
+

@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中国医学百科全书_part08"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ $$
 \mathrm {s} \hat {\mu} = \sqrt {\frac {(1 - \mathrm {I} ^ {\prime})}{2 \mathrm {n}}} \mathrm {I} ^ {\prime}
 $$
 
-式中 $s_{\mathrm{n}}$ 为突变率的标准误，n为子代样本人数。
+式中 $s_{\mathrm{n}}$ 为突变率的标准误，n为子代样本人数。

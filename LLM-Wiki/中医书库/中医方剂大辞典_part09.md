@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part09"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ type: tcm
 96177 麝沉散 ... 1635
 
 96178 麝沉膏 ... 1635
-
+

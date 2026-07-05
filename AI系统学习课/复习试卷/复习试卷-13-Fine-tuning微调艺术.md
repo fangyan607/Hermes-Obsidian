@@ -1,3 +1,8 @@
+---
+tags: [ai-learning, tutorial]
+created: 1782201956
+---
+
 # 13-Fine-tuning 微调艺术 · 费曼学习法复习文档 & 试卷
 
 ---

@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: 量子AI融合：从Chat到Act的跃迁
 category: 量子计算
 skill_tag: Skill2,Skill6

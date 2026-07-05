@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中国医学百科全书 中医学_part06"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ xx ×，女,20岁，右心经皮脂腺癌（自幼发病，皮损起于胸廓正
 <div align="center">
 
 表1 手三阴经穴主治表
-
+

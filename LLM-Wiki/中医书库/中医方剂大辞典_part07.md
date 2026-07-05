@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part07"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ type: tcm
 93346 藐仁膏 ... 1283
 
 93347 藐仁膏 ... 1283
-
+

@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part53"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ type: tcm
 ## 95480 套香散
 
 【方源】《活幼口议》卷二十。
-
+

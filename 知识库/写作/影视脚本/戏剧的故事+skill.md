@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: theatre-story
 description: |
   美国最广泛使用的戏剧史教材——从古希腊到21世纪的全球戏剧发展全景图。

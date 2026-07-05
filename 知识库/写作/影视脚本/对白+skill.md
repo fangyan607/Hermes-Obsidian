@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: dialogue-mckee
 description: |
   罗伯特·麦基的对白创作体系——从对白的艺术到场景设计的完整言语行为创作方法。

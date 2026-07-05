@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: Microsoft Majorana 2：拓扑量子计算新突破
 category: 量子计算
 skill_tag: Skill2

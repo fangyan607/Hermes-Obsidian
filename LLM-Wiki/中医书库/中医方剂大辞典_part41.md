@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part41"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ type: tcm
 【方源】《圣济总录》卷三十二。
 
 【组成】酸枣仁（炒） 榆皮（切）各三两
-
+

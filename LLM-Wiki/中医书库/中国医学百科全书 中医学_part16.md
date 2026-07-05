@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中国医学百科全书 中医学_part16"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ Knoxia valerianoides Thorel ex Pitard 的块根。上产于广东、广西、云
 实验研究：本品含动物胶、角蛋白、碘质、维生素D等。
 
 ## 夹蛇龟
-
+

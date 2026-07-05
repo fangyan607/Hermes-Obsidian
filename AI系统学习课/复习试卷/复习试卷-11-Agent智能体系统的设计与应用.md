@@ -1,3 +1,8 @@
+---
+tags: [ai-learning, tutorial]
+created: 1782201956
+---
+
 # 费曼学习法复习文档 & 试卷：11-Agent智能体系统的设计与应用
 
 ---

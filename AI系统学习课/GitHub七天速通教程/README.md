@@ -1,3 +1,8 @@
+---
+tags: [ai-learning, tutorial]
+created: 1782201956
+---
+
 # GitHub 七天速通教程
 
 > ⏱ 总学时：56个番茄钟（约24小时）

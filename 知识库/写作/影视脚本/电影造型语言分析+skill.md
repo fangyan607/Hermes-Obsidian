@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: cinematography-visual-language
 description: |
   电影造型语言分析法：从色彩、运动摄影、光线、空间环境到风格的完整摄影造型分析体系。

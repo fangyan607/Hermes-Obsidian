@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中国医学百科全书 中医学_part32"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ type: tcm
 产后小便淋漓 1927
 
 产后小便频数 1927
-
+

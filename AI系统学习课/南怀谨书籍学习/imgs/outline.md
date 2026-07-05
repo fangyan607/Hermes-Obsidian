@@ -1,4 +1,6 @@
 ---
+tags: [nanhuaijin, philosophy]
+
 type: scene
 density: rich
 style: chinese-ink-line-drawing

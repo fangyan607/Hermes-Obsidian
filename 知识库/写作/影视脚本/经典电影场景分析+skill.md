@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: scene-analysis-method
 description: |
   经典电影场景分析法：通过故事、角色、对白、场景涵义、文本、潜台词与镜头设置六大元素拆解经典电影场景。

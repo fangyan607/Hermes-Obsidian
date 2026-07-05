@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: DiffusionGemma：扩散模型时代的AI架构
 category: AI架构创新
 skill_tag: Skill5

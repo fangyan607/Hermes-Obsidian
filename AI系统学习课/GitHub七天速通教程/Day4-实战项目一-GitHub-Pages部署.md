@@ -1,3 +1,8 @@
+---
+tags: [ai-learning, tutorial]
+created: 1782201956
+---
+
 # Day 4：实战项目一 - GitHub Pages 部署
 
 > ⏱ 预计学习时间：8个番茄钟（约3.5小时）

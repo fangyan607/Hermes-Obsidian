@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: shot-grammar
 description: |
   镜头语法体系：从景别、构图、光线到运动摄影的完整视觉语言方法论。

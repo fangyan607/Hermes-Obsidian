@@ -1,3 +1,8 @@
+---
+tags: [llm-wiki]
+created: 1782201956
+---
+
 # Smart Connections 向量索引配置指南
 
 > 配置Obsidian Smart Connections插件为中医书库建立向量索引

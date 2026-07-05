@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "README"
 category: 中医
 type: tcm

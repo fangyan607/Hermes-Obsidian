@@ -1,3 +1,8 @@
+---
+tags: [codex, tutorial]
+created: 1782201956
+---
+
 # 🚀 OpenAI Codex CLI 一周精通教程
 
 > ⏱ 总学时：56个番茄钟（约24小时）

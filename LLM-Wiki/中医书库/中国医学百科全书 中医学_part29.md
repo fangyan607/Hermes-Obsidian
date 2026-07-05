@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中国医学百科全书 中医学_part29"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ type: tcm
 朱砂 雄黄 血竭 没药 聩晋
 
 神龟滋阴丸（《赤水玄珠》）
-
+

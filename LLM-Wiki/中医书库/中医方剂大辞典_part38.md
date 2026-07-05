@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part38"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ type: tcm
 ## 91073 新制兰膏汤
 
 【方源】《羊毛温证论》。
-
+

@@ -1,3 +1,8 @@
+---
+tags: [ai-learning, tutorial]
+created: 1782201956
+---
+
 # 🍅 番茄工作法完整指南 - Obsidian实践版
 
 > 作者：番茄工作法资深教师

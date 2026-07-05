@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中国医学百科全书_part06"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ $\sum_{i=1}^{m} \frac{\lambda_{i}}{p}$ 表示前m个主成分的累计贡献率
 
 例 某防疫站对该地区72名14岁男生检测了下列12个指标，试对他们生长发育状况作出综合评价。
 
-<div align="center">
+<div align="center">

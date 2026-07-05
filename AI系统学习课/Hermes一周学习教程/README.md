@@ -1,3 +1,8 @@
+---
+tags: [hermes, tutorial]
+created: 1782201956
+---
+
 # 🚀 Hermes Agent 一周学习教程
 
 > ⏱ 总学时：68个番茄钟（约29小时）

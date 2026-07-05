@@ -1,3 +1,8 @@
+---
+tags: [ai-learning, tutorial]
+created: 1782201956
+---
+
 # Day 1：Git 基础与仓库管理
 
 > ⏱ 预计学习时间：8个番茄钟（约3.5小时）

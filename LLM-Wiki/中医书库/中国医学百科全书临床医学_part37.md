@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中国医学百科全书临床医学_part37"
 category: 中医
 type: tcm

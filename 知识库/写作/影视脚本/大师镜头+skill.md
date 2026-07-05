@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: master-shots
 description: |
   低成本拍大片的100个高级拍摄技巧——低成本下的创新镜头解决方案库。

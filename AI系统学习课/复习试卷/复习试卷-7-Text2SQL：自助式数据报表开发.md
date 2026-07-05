@@ -1,3 +1,8 @@
+---
+tags: [ai-learning, tutorial]
+created: 1782201956
+---
+
 # Text2SQL：自助式数据报表开发 - 费曼学习法复习文档 & 试卷
 
 ---

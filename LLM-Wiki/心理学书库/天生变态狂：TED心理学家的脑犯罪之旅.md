@@ -1,4 +1,6 @@
 ---
+tags: [psychology]
+
 title: "天生变态狂：TED心理学家的脑犯罪之旅"
 category: 心理学
 type: psychology

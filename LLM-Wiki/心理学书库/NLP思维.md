@@ -1,4 +1,6 @@
 ---
+tags: [psychology]
+
 title: "NLP思维"
 category: 心理学
 type: psychology

@@ -1,3 +1,8 @@
+---
+tags: [hermes, tutorial]
+created: 1782201956
+---
+
 # Day 5：Skill 安装与使用
 
 > ⏱ 预计学习时间：10个番茄钟（约4.5小时）

@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: film-semiotics-peirce
 description: |
   皮尔斯符号学电影分析法：用皮尔斯符号学理论框架分析电影的意义建构、再现、叙述与美学过程。

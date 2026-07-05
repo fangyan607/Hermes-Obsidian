@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中国医学百科全书 中医学_part10"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ $ \textcircled{1} $小腿与足跟离床 $ \textcircled{2} $砂袋维持肢体�
 </div>
 
 侧启及对侧肩腋下施行单肩“8”字形固定。
-
+

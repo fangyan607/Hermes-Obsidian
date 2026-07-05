@@ -1,3 +1,8 @@
+---
+tags: [codex, tutorial]
+created: 1782201956
+---
+
 # 📱 Codex Desktop App 完整指南：安装 → 配置 → 高级运用 → 项目实战
 
 > ⏱ 预计学习时间：6个番茄钟（约2.5小时）

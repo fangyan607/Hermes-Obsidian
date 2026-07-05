@@ -1,4 +1,6 @@
 ---
+tags: [memory.md]
+
 created: 2026-06-22
 type: session-memory
 domain: kb-architecture

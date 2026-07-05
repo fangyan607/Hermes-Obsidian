@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中国医学百科全书临床医学_part35"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ type: tcm
 
 粒细胞肉瘤 1323
 
-粒细胞增多 644
+粒细胞增多 644

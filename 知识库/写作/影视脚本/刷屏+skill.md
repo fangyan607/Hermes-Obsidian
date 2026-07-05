@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: viral-video-method
 description: |
   刷屏法则：视频时代打造爆款内容的疯传方法论。

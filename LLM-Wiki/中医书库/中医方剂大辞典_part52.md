@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part52"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ type: tcm
 【组成】白术 白芍 茯苓 陈皮 炙草
 
 【用法】水煎服。
-
+

@@ -1,3 +1,8 @@
+---
+tags: [law, chinese-law]
+created: 1782201957
+---
+
 # 中国法律书库 -- 操作日志
 
 - 2026-06-22: LLM Wiki schema 初始化完成

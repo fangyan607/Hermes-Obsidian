@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中国医学百科全书 中医学_part34"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ type: tcm
 线纹海马 1256
 
 绀珠正气天香汤 1466
-
+

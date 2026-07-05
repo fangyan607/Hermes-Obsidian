@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中国医学百科全书临床医学_part03"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ M型超声心动图...2338
 
 # 感染性疾病
 
-</div>
+</div>

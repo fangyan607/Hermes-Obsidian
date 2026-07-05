@@ -1,3 +1,8 @@
+---
+tags: [ai-learning, tutorial]
+created: 1782201956
+---
+
 # MCP与A2A的应用 - 费曼学习法复习文档 & 试卷
 
 ---

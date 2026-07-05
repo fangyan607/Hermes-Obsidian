@@ -1,3 +1,8 @@
+---
+tags: [codex, tutorial]
+created: 1782201956
+---
+
 # Day 2：Codex CLI 核心功能深入
 
 > ⏱ 预计学习时间：8个番茄钟（约3.5小时）

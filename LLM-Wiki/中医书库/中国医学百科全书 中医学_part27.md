@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中国医学百科全书 中医学_part27"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ type: tcm
 吴克潜编《古今医方集成》。
 
 顾渭川等在上海创办新中国医学院。
-
+

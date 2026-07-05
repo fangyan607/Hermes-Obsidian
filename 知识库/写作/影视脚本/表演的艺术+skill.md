@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: stella-adler-acting
 description: |
   斯特拉·阿德勒的22堂表演课——从走上舞台到刻画阶层的完整演员训练体系。

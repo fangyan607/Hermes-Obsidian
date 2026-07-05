@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part12"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ $ \textcircled{1} $《直指》：齿虫痛。 $ \textcircled{2} $《局方》�
 ## 83463 散血丹
 
 【方源】《眼科全书》卷六。
-
+

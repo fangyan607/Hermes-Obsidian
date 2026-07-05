@@ -1,4 +1,6 @@
 ---
+tags: [psychology]
+
 title: "网络爱情：在线关系心理学（英）莫妮卡·T 惠蒂"
 category: 心理学
 type: psychology

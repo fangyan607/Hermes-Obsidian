@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: six-lessons-acting
 description: |
   波列斯拉夫斯基的经典表演六讲——从专注力到节奏的逐层递进式演员训练。

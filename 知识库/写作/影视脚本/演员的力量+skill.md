@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: chubbuck-technique
 description: |
   查伯克十二步骤表演法——化痛苦为力量的系统心理行为表演体系。

@@ -1,3 +1,8 @@
+---
+tags: [ai-learning, tutorial]
+created: 1782201956
+---
+
 # M6：Profile 多实例与多 Agent
 
 > ⏱ **番茄钟**：🍅21-24（共4个番茄 = 100分钟专注 + 20分钟休息）

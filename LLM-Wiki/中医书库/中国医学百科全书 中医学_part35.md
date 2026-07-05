@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中国医学百科全书 中医学_part35"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ type: tcm
 既济固真丹 1570
 
 屋簪 410
-
+

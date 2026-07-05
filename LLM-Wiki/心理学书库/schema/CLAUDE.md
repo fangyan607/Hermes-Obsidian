@@ -1,3 +1,8 @@
+---
+tags: [psychology]
+created: 1782201957
+---
+
 # 心理学书库 -- LLM Wiki Workflow
 
 ## Topic Config

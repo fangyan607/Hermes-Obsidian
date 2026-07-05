@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part04"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ type: tcm
 88853 隔纸膏 748
 
 88854 隔纸膏 748
-
+

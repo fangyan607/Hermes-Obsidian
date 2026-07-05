@@ -1,3 +1,8 @@
+---
+tags: [nanhuaijin, philosophy]
+created: 1782201956
+---
+
 # 南怀谨书籍学习计划
 
 > 📚 **书籍总量**：42本学习计划

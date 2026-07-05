@@ -1,3 +1,8 @@
+---
+tags: [psychology]
+created: 1782201957
+---
+
 # 适配Obsidian LLM-WIKI知识库｜123本心理学MD书库AI检索开发方案
 版本：V1.1
 适配环境：Obsidian + LLM-WIKI 本地知识库框架

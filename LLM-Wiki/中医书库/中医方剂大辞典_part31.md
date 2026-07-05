@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part31"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ type: tcm
 【主治】产后恶血崩漏，状如泉水；及非时血崩者。
 
 ## 89053 瑞莲散
-
+

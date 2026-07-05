@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: editing-grammar
 description: |
   剪辑语法体系：从基础镜头类型到47条实践准则的完整剪辑方法论。

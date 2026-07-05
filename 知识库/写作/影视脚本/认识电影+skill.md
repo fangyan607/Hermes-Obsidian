@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: understanding-movies
 description: |
   全球最畅销的电影入门教材——从摄影、场面调度到意识形态批评的完整电影概论。

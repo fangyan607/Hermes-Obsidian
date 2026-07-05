@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: screenwriting-walter
 description: |
   理查德·沃尔特的影视写作体系——从艺术、技巧到商业运作的完整编剧方法论。

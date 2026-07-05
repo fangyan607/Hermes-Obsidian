@@ -1,3 +1,8 @@
+---
+tags: [ai-learning, tutorial]
+created: 1782201956
+---
+
 # Embedding与向量数据库 - 费曼学习法复习文档 & 试卷
 
 ---

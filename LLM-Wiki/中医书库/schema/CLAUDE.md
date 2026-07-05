@@ -1,3 +1,8 @@
+---
+tags: [llm-wiki]
+created: 1782201956
+---
+
 # 中医书库 -- LLM Wiki Workflow
 
 ## Topic Config

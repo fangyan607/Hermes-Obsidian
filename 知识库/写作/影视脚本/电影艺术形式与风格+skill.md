@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: film-art-bordwell
 description: |
   电影形式与风格的系统概论——从制作到分析、从技巧到历史的完整电影美学体系。

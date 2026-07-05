@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: 物理AI的崛起：具身智能的关键突破
 category: 世界模型与物理AI
 skill_tag: Skill1,Skill4

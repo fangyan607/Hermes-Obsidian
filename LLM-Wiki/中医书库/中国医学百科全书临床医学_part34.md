@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中国医学百科全书临床医学_part34"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ type: tcm
 
 ~,附睾 84
 
-~,脊柱 85
+~,脊柱 85

@@ -1,3 +1,8 @@
+---
+tags: [n8n, workflow, tutorial]
+created: 1782201956
+---
+
 # Day 2：核心节点与触发器
 
 > ⏱ 预计学习时间：8个番茄钟（约3.5小时）

@@ -1,3 +1,8 @@
+---
+tags: [ai-learning, tutorial]
+created: 1782201956
+---
+
 # AI大模型原理与API使用 - 复习试卷
 
 ---

@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part34"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ $ \textcircled{1} $《外台》引《千金》：重舌，舌上生疮，涎出�
 【方源】《育婴秘诀》。
 
 【异名】救苦散。
-
+

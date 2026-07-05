@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中国医学百科全书_part15"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ ZPP zinc protoporphyrin锌卟啉
 历届卫生部长 446
 
 不育症，女性 699
-
+

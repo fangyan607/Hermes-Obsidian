@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中国医学百科全书 中医学_part31"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ type: tcm
 六味地黄汤 1526
 
 六味回阳饮 1448
-
+

@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: NEO脑芯片：全球首款商用侵入式BCI
 category: 脑机接口
 skill_tag: Skill3

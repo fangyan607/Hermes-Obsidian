@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: editing-thinking-skill
 description: |
   影视剪辑思维与技巧——从情节走势到精剪风格的完整剪辑工作流。

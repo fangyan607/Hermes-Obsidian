@@ -39,7 +39,7 @@ echo ""
 # 阶段1: 检查所有域目录和文件
 echo "--- 阶段1: 检查目录结构 ---"
 
-DOMAINS=("法律" "创造性思维" "学习方法" "心理学" "中医学")
+DOMAINS=("法律" "创造性思维" "学习方法" "心理学" "中医学" "新科技与应用" "写作")
 for domain in "${DOMAINS[@]}"; do
     domain_path="$GBRAIN_DIR/$domain"
     if [ ! -d "$domain_path" ]; then
@@ -139,7 +139,7 @@ echo "警告: $WARN_COUNT"
 if [ "$ERROR_COUNT" -eq 0 ] && [ "$WARN_COUNT" -eq 0 ]; then
     echo -e "${GREEN}========================================${NC}"
     echo -e "${GREEN} GBrain 知识库初始化检查通过! ${NC}"
-    echo -e "${GREEN} 5 个领域共 25 个实体页面准备就绪。 ${NC}"
+    echo -e "${GREEN} 7 个领域共 35 个实体页面准备就绪。 ${NC}"
     echo -e "${GREEN}========================================${NC}"
 elif [ "$ERROR_COUNT" -eq 0 ]; then
     echo -e "${YELLOW}========================================${NC}"

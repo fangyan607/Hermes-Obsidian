@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: save-the-cat-classic-scripts
 description: |
   救猫咪经典剧本分析法：用10种题材和15节拍表深度解构50部标志性影片。

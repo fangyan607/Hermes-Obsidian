@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: setting-up-your-shots
 description: |
   150+种电影制作技巧图解——从基础镜头到高级摄影机运动大全。

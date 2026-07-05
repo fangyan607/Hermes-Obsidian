@@ -1,3 +1,8 @@
+---
+tags: [law, chinese-law]
+created: 1782201957
+---
+
 # 法律经济学分析技能
 
 > 技能ID: law-economics-analysis

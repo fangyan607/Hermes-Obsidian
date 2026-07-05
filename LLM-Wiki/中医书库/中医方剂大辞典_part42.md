@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part42"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ type: tcm
 ## 92274 磁贝合剂
 
 【方源】《中医皮肤病学简编》。
-
+

@@ -1,3 +1,8 @@
+---
+tags: [llm-wiki]
+created: 1782201957
+---
+
 # 创造性思维 -- KB Workflow
 
 ## Topic Config

@@ -1,3 +1,8 @@
+---
+tags: [ai-learning, tutorial]
+created: 1782201956
+---
+
 # Cursor AI编辑器实战指南
 
 > ⏱ 预计学习时间：2个番茄钟（25分钟×2）

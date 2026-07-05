@@ -1,3 +1,8 @@
+---
+tags: [ai-learning, tutorial]
+created: 1782201956
+---
+
 # 🚀 30番茄熟练操作 Hermes Agent 教程
 
 > ⏱ **总学时**：30个番茄钟（约13小时）

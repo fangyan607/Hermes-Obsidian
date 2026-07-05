@@ -1,3 +1,8 @@
+---
+tags: [ai-learning, tutorial]
+created: 1782201956
+---
+
 # RAG高级技术与实践 - 费曼学习法复习文档 & 试卷
 
 ---

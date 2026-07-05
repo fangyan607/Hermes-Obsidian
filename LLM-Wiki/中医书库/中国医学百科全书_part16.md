@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中国医学百科全书_part16"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ type: tcm
 妊娠结局 782
 
 妊娠合并症 778
-
+

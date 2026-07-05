@@ -1,3 +1,8 @@
+---
+tags: [screenwriting, film]
+created: 1782244767
+---
+
 # 电影 SKILL 完整指南
 
 > 36个电影类专业技能模块的完整参考手册

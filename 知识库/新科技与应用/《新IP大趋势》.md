@@ -1,3 +1,8 @@
+---
+tags: [tech, future-tech]
+created: 1782208926
+---
+
 # 2023-05《新IP大趋势》
 
 **Title:** 新IP大趋势

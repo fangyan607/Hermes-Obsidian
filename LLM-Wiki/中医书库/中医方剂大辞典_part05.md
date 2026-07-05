@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part05"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ type: tcm
 90369 催生乳香膏 925
 
 90370 催生兔血散 925
-
+

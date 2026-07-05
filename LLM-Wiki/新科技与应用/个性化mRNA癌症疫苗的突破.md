@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: 个性化mRNA癌症疫苗的突破
 category: 生物医药科技
 skill_tag: Skill8

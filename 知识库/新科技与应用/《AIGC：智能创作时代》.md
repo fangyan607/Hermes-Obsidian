@@ -1,3 +1,8 @@
+---
+tags: [tech, future-tech]
+created: 1782208926
+---
+
 # 2023-03《AIGC：智能创作时代》
 
 **Title:** AIGC：智能创作时代

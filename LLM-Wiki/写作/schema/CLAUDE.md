@@ -1,3 +1,8 @@
+---
+tags: [llm-wiki]
+created: 1782244767
+---
+
 # 写作知识库 -- KB Workflow
 
 ## Topic Config

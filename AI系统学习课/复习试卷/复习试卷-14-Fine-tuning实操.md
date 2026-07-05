@@ -1,3 +1,8 @@
+---
+tags: [ai-learning, tutorial]
+created: 1782201956
+---
+
 # 复习试卷-14-Fine-tuning实操
 
 ---

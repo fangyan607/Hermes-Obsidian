@@ -1,4 +1,6 @@
 ---
+tags: [nanhuaijin, philosophy]
+
 illustration_id: 02
 type: scene
 style: chinese-ink-line-drawing

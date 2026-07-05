@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: save-the-cat-screenwriting
 description: |
   救猫咪编剧法：高度概念化故事线+10种题材+15节拍表的完整编剧方法论。

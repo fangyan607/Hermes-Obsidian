@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: respect-for-acting
 description: |
   乌塔·哈根的经典表演方法论——从正身到角色的完整演员自我修养体系。

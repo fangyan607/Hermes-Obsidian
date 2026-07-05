@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: 量子模拟与AI药物发现
 category: AI for Science
 skill_tag: Skill6,Skill2

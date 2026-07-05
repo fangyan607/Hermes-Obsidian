@@ -1,3 +1,8 @@
+---
+tags: [screenwriting, film]
+created: 1782244767
+---
+
 <div align="center">
 
 # 科幻电影导论

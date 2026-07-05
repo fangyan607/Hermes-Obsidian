@@ -1,3 +1,8 @@
+---
+tags: [ai-learning, tutorial]
+created: 1782201956
+---
+
  # DeepSeek使用与提示词工程 - 复习试卷
 
 ---

@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part45"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ $ \textcircled{1} $《妇人良方》：血崩。 $ \textcircled{2} $《赤水�
 【用法】上为末，以粥和丸。每服三五十丸，空腹米饮吞下。
 
 【主治】赤白带有湿热者。
-
+

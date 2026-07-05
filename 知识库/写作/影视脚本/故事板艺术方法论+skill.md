@@ -1,4 +1,6 @@
 ---
+tags: [screenwriting, film, skill]
+
 name: storyboarding-art
 description: |
   故事板艺术方法论：从剧本分析到视觉预演的完整分镜设计流程。

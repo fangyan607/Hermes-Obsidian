@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part06"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ type: tcm
 91952 酸浆酒 ··· 1118
 
 91953 酸浆膏 ··· 1118
-
+

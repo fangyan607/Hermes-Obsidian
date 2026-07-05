@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "让思考变得可见 = Making Thinking Visible -- 榮 · 理查特 (Ron Ritchhart), 馬克 · 邱奇 (Mark Church), 凱琳 · 莫莉森 "
 category: 创造性思维
 type: creativity

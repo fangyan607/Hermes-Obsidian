@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: "中医方剂大辞典_part22"
 category: 中医
 type: tcm
@@ -3003,4 +3005,4 @@ $\textcircled{1}$《三因》：产后一切血疾垂死者。$\textcircled{2}$�
 【主治】痢疾不止者。
 
 【备考】方中雄黄豆，《奇效良方》作雄黑豆。
-
+

@@ -1,3 +1,8 @@
+---
+tags: [ai-learning, tutorial]
+created: 1782201956
+---
+
 # 10个番茄学会 Claude SKILL 完整教程
 
 > ⏱ 总学时：10个番茄钟（约4.5小时）

@@ -1,3 +1,8 @@
+---
+tags: [llm-wiki]
+created: 1782201957
+---
+
 # 创造性思维书库索引中心
 
 > 本索引库基于《Obsidian-LLMWIKI创造性思维库AI开发方案》构建

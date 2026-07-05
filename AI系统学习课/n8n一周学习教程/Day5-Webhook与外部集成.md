@@ -1,3 +1,8 @@
+---
+tags: [n8n, workflow, tutorial]
+created: 1782201956
+---
+
 # Day 5：Webhook 与外部集成
 
 > ⏱ 预计学习时间：8个番茄钟（约3.5小时）

@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: 脑科学研究的多模态AI突破
 category: AI for Science
 skill_tag: Skill6,Skill3

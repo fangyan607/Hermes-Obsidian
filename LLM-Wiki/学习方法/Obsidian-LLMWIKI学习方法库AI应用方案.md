@@ -1,3 +1,8 @@
+---
+tags: [learning-method]
+created: 1782201957
+---
+
 # Obsidian LLM-WIKI 学习方法库AI检索应用方案
 
 **版本**：V1.0

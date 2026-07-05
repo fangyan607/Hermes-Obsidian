@@ -1,4 +1,6 @@
 ---
+tags: [llm-wiki]
+
 title: VLA模型：机器人的大脑革命
 category: 人形机器人
 skill_tag: Skill4,Skill1
