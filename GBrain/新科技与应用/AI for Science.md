@@ -13,6 +13,12 @@ relations:
     target: [[认知科学]]
   - type: 跨域关联
     target: [[刻意练习]]
+  - type: 桥域关联
+    target: [[认知与思维]]
+    desc: AI认知的新前沿
+  - type: 桥域关联
+    target: [[创造与表达]]
+    desc: 计算创造力
 tags:
   - AI4S
   - drug-discovery
