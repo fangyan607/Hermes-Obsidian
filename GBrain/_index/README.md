@@ -14,5 +14,5 @@ python scripts/gbrain_scanner.py --search <关键词>
 python scripts/gbrain_scanner.py --graph <实体名>
 ```
 
-> 最后更新: 2026-09-02 23:01:09
+> 最后更新: 2026-09-03 23:00:15
 > 文档数: 3297 · 域数: 10
