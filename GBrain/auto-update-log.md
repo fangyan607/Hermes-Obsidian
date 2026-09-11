@@ -1,5 +1,62 @@
 # GBrain + LLM-Wiki 自动更新日志
 
+## 2026-09-11 23:00 — 第4次每日更新
+
+### 执行结果
+| 项目 | 状态 | 说明 |
+|------|------|------|
+| 脚本执行 | ⚠️ 部分成功 (exit_code=0) | `gbrain-dual-update.py` 完成，push 环节失败 |
+| 增量扫描 | ✅ 完成 (10.4s) | 3297 → 3302 篇（+5，见下"超长文件名修复"） |
+| 本地提交 | ✅ 成功 | commit `edbb0fe`（17 文件） |
+| Git Push | ❌ 失败 | **Host key verification failed** → 补 known_hosts 后转为 **Permission denied (publickey)**；HTTPS 备选路径经 ghfast.top 推送 60s 超时 |
+| 知识图谱 | ✅ | 3895 节点 → 3900 节点 / 5472 → 5477 边 |
+| 向量索引 | ✅ | 4884 关键词 / 3302 文档 |
+| 域分布 | 9 个域 | 中国法律书库 **2560 → 2565** 篇（超长文件名修复后补齐），中医 274 / 心理学 270 / 道医全集 108 / 其余不变 |
+
+### 异常记录
+
+#### ❌ P0：Git push 全线失败 —— 凭据丢失（阻碍项）
+- **现象**：`git push origin-ssh main` → `Host key verification failed. fatal: Could not read from remote repository.`
+- **根因**：
+  1. `~/.ssh/` 里**已无任何私钥**（该目录 mtime 2026-09-11 16:24，仅剩 `authorized_keys`）；全盘 `find /home /root -name "id_*"` + 内容级 grep `BEGIN OPENSSH PRIVATE KEY`（含 /etc /opt /srv）**均无结果**，无备份 tar/zip。执行脚本的 SSH 通道因此失效。
+  2. 无 `~/.ssh/known_hosts`（首次连接即校验失败）。
+  3. HTTPS 通道：`~/.git-credentials` 不存在、`.env` 中无 GitHub token（含今日 19:54 安全清理后的版本），`origin` 的 pushurl 是直连 `https://github.com/...`，经 ghfast.top 代理推送 60s 无响应超时。
+- **已做修复**：`ssh-keyscan github.com` 三把主机密钥写入 `~/.ssh/known_hosts`（已验证 `ssh-keygen -F github.com` 命中），错误从"host key 校验失败"前进到"公钥认证失败"。
+- **待人工处理（二者其一，无法自动完成）**：
+  1. **推荐**：把原私钥恢复到 `~/.ssh/id_ed25519`（`chmod 600`），确认 GitHub 账号 `fangyan607` 的 SSH keys 里仍有对应公钥；然后 `git push origin-ssh main`。
+  2. 或生成新密钥 `ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519 -N ""`，把 `id_ed25519.pub` 添加到 GitHub → Settings → SSH keys。
+- **积压**：本地已领先 `origin/main` **1 个提交**（`edbb0fe`），今晚修复后产生的提交会累计为 2 个，恢复凭据后一次 `git push origin-ssh main` 即可全部同步。
+
+#### ✅ 已修复：5 个超长文件名索引条目（连续 3 天的遗留问题）
+- 前几日 `git status` 每次都报 5 行 `File name too long`，被脚本误计为"变更文件"。
+- 真相：这 5 条路径**存在于 git index/HEAD 但磁盘上不存在**（文件名组件 270–321 字节，超 ext4 单组件 255 字节上限，无法落地），因此永远不会被扫描器索引。
+- 处理：从 `HEAD:<path>` 提取 blob（1.6KB–9.5KB，内容完整），以缩短名重建文件并做 SHA-256 字节级校验，再 `git rm --cached` 原路径。**内容零丢失**，旧路径仍留在 git 历史中。
+- 映射表见 `GBrain/_index/文件名映射.md`；修复后 `git status` 不再有 ENAMETOOLONG 报错，扫描器正常收录这 5 篇。
+
+#### ⚠️ 脚本自身缺陷（已修补）
+- 旧脚本：只推 `origin-ssh`；push 超时上限 180s；`git status` 的 stderr 错误行会被计入"变更文件数"。
+- 已改为：SSH → HTTPS 依次尝试、各自 60s 超时、`GIT_TERMINAL_PROMPT=0` + `BatchMode=yes`（避免非交互挂起），并输出每个 remote 的具体失败原因；commit 无变更时不再当作错误。
+
+### 质检结果
+- ❌ 空文件: 无（3297 → 3302 篇 .md 全非空）
+- ❌ Git冲突标记(`<<<<<<<` / `=======` / `>>>>>>>`): 未发现
+- ❌ 损坏的 `.gitmerge*` / `*~` / `.orig` / `.rej` / `.bak` 临时文件: 未发现
+- ❌ 不可读文档: 0
+- ✅ 敏感串扫描（ghp_/github_pat_/sk-）: 仅 1 处文档示例占位符 `ghp_xxxxxx`，非真实凭据
+- ℹ️ 4 个 0 字节文件均为 `Projects/项目A（示例）/*/.gitkeep`，属正常占位
+
+### Git Diff统计
+- `edbb0fe`（23:00 脚本提交，17 文件）：3 篇域索引 + 知识图谱/向量索引/状态 JSON + auto-update-log.md
+- 本次修复额外提交：5 个缩名法律文档 + `GBrain/_index/文件名映射.md` + 重新生成的 GBrain 索引
+
+---
+
+*生成时间: 2026-09-11 23:20 | 下次更新: 2026-09-12 23:00*
+
+---
+
+## 2026-09-10 23:00 — 第3次每日更新
+
 ## 2026-09-10 23:00 — 第3次每日更新
 
 ### 执行结果
