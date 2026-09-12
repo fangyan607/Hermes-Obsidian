@@ -1,5 +1,55 @@
 # GBrain + LLM-Wiki 自动更新日志
 
+## 2026-09-12 23:00 — 第5次每日更新
+
+### 执行结果
+| 项目 | 状态 | 说明 |
+|------|------|------|
+| 脚本执行 | ⚠️ 部分成功 (exit_code=0) | `gbrain-dual-update.py` 扫描正常，push 环节再次失败 |
+| 增量扫描 | ✅ 完成 (10.8s) | 3302 篇，新增 0 / 变更 0 / 跳过 3302（昨日修复后已全部最新） |
+| 本地提交 | ✅ 成功 | commit `05ff226`（17 文件，+5543/−5469） |
+| Git Push | ❌ 失败（连续第 2 天） | `origin-ssh`: `Permission denied (publickey)`；`origin`(HTTPS): `could not read Username for 'https://github.com'` |
+| 知识图谱 | ✅ | 3895 → **3900 节点** / 5472 → **5477 边** |
+| 向量索引 | ✅ | 4884 关键词 / 3302 文档 |
+| 域分布 | 9 域（+2 个全局索引文件） | 中医 274 / 中国法律 **2565** / 心理学 270 / 道医全集 108 / 写作 13 / 创造性思维 22 / 学习方法 20 / 新科技与应用 22 / 桥域 6 |
+
+### 异常记录
+
+#### ❌ P0（未解决·阻碍项）：Git push 凭据缺失，远程落后 4 个提交
+- **现象**：`git push origin-ssh main` → `git@github.com: Permission denied (publickey)`；HTTPS 备选 → `fatal: could not read Username for 'https://github.com': terminal prompts disabled`。
+- **根因复核（较昨日更进一步确认）**：
+  1. `~/.ssh/` 内**确无私钥**（今日新增密钥前该目录仅剩 `authorized_keys` + `known_hosts`）；`/root/.ssh` 仅有 0 字节 `authorized_keys`。
+  2. 系统内**不存在任何 GitHub 凭据**：无 `~/.git-credentials`、无 `~/.gitconfig`、`~/.hermes/.env` 与 `~/.hermes-upstream/.env` 均无 `GITHUB_TOKEN`/`GH_TOKEN`，全盘（含 `.env*`、`*.bak*`）grep `^(GITHUB_TOKEN|GH_TOKEN)=` 无命中，`find` 无 `id_*`/`*.pem`/`*_rsa`/`*_ed25519` 私钥文件。`gh` CLI 未安装。
+  3. 时序特征：`~/.ssh` 目录 mtime = 2026-09-11 16:24，与当日凭据泄露清理（`config.yaml.bak-presanitize-*` / `.env.restored-compromised-*`，19:54）同窗口，**判定私钥在安全清理中被删除且无备份**，非网络/代理问题（同代理 `git ls-remote` 读取正常）。
+- **今日已做**：
+  1. `ssh-keyscan` 主机密钥已在位（昨日修复，`ssh -T git@github.com` 报错稳定为 publickey 而非 host key）。
+  2. 确认远程状态：`origin/main` = `548fe17`（2026-09-10 的提交），**本地领先 4 个提交**：`edbb0fe` / `5c4e216` / `c391d93` / `05ff226`。
+  3. **已生成新密钥对** `~/.ssh/id_ed25519`（ed25519，无口令，`chmod 600`，注释 `ubuntu@hermes-gbrain-sync`），并已实测该密钥尚未在 GitHub 注册（`Permission denied (publickey)`）。待用户把下方公钥加入 GitHub 后即可一键同步：
+     ```
+     ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC9DkdzrGgadq7dVM9bkZ5R7sJWZVqYXfipC7Lw1PaUK ubuntu@hermes-gbrain-sync
+     ```
+- **待人工处理（二选一，均需账号侧操作，脚本无法自动化）**：
+  1. 将上述公钥添加到 GitHub → Settings → SSH and GPG keys（或该仓库 Deploy keys，勾选 Allow write access）→ 之后执行 `cd ~/Hermes-Obsidian/Hermes-Obsidian && git push origin-ssh main`。
+  2. 或恢复原私钥到 `~/.ssh/id_ed25519`（`chmod 600`），并确认 `fangyan607` 账号 SSH keys 中仍有对应公钥。
+  3. （可选替代）在 `~/.hermes/.env` 写入 `GITHUB_TOKEN=<PAT with repo scope>`，脚本的 HTTPS 分支即可改为带 token 推送。
+- **风险提示**：远程备份已连续 2 天未更新；本地仓库完整，无数据丢失风险，但异地冗余暂停。
+
+#### ✅ 无损坏文档 / 无 git 冲突（质检通过）
+- 未发现 `<<<<<<<` / `>>>>>>>` 冲突标记（LLM-Wiki + GBrain 全量 grep 无命中）。
+- 无 0 字节 `.md`（3302 篇全非空）；无 `MERGE_HEAD` / `rebase-merge`，`git status` 干净（提交后无残留）。
+- 昨日修复的 5 篇超长文件名法律文档已正常收录，法律库稳定在 **2565 篇**，本次未见 `File name too long`。
+- 本次提交的 17 个文件中未检出 `ghp_` / `github_pat_` / `sk-` 真实凭据（正则扫描无命中）。
+
+### Git Diff统计
+- `05ff226`（23:00 脚本提交，17 文件）：`2026-09-12.md`（日报） + GBrain `_index/` 8 个域索引 + `.gbrain_state.json` / `知识图谱.json` / `向量索引.json` + `国际日报.md` 等。
+- 日志补录提交：本文件（auto-update-log.md）。
+
+---
+
+*生成时间: 2026-09-12 23:05 | 下次更新: 2026-09-13 23:00*
+
+---
+
 ## 2026-09-11 23:00 — 第4次每日更新
 
 ### 执行结果
