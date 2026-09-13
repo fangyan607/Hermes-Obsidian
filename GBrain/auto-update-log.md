@@ -1,5 +1,52 @@
 # GBrain + LLM-Wiki 自动更新日志
 
+## 2026-09-13 23:00 — 第6次每日更新
+
+### 执行结果
+| 项目 | 状态 | 说明 |
+|------|------|------|
+| 脚本执行 | ⚠️ 部分成功 (exit_code=0) | `gbrain-dual-update.py` 扫描正常，push 环节连续第 3 天失败 |
+| 增量扫描 | ✅ 完成 (9.7s) | 3302 篇，新增 0 / 变更 0 / 跳过 3302（内容稳定，无新增文档） |
+| 本地提交 | ✅ 成功 | commit `2429750`（16 文件，+5381/−5348） |
+| Git Push | ❌ 失败（连续第 3 天） | `origin-ssh`: `Permission denied (publickey)`；`origin`(HTTPS): `could not read Username for 'https://github.com'` |
+| 知识图谱 | ✅ | 3900 节点 / 5477 边（与昨日持平） |
+| 向量索引 | ✅ | 4884 关键词 / 3302 文档 |
+| JSON 完整性 | ✅（新增校验项） | `知识图谱.json` / `向量索引.json` / `.gbrain_state.json` 三个文件均可正常 JSON 解析，计数与状态报告一致 |
+| 域分布 | 9 域（+2 个全局索引文件） | 中医 274 / 中国法律 **2565** / 心理学 270 / 道医全集 108 / 写作 13 / 创造性思维 22 / 学习方法 20 / 新科技与应用 22 / 桥域 6 |
+
+### 异常记录
+
+#### ❌ P0（未解决·阻碍项）：Git push 凭据缺失，远程落后 7 个提交
+- **现象（今日复现）**：`git push origin-ssh main` → `git@github.com: Permission denied (publickey)`；HTTPS 备选 → `fatal: could not read Username for 'https://github.com': terminal prompts disabled`。`ssh -T -i ~/.ssh/id_ed25519 git@github.com` 同样返回 `Permission denied (publickey)`。
+- **今日复核（无变化，凭据仍未恢复）**：
+  1. `~/.ssh/` 仅含 `authorized_keys` / `known_hosts` / 昨日新建的 `id_ed25519(.pub)`；全盘（/home /root /tmp /opt）再搜 `id_rsa*` / `id_ed25519*` / `*.pem` / `*github*key*` / `ssh*.tar*` **无其他私钥或备份**。
+  2. 无 `~/.git-credentials`、无 `~/.gitconfig`、无 `~/.netrc`；`~/.hermes/.env`、`~/.hermes-upstream/.env` 中无 `GITHUB_TOKEN`/`GH_TOKEN`；`gh` CLI 未安装。仅技能文档（`skills/software-development/github/...`）含 token 字样，非真实凭据。
+  3. 远程 `origin/main` 仍停在 `548fe17`（2026-09-10），**本地已领先 7 个提交**：`c391d93` / `05ff226` / `78c98b5` / `a7a6178` / `2429750` 等（含 09-11、09-12 日报与日记）。
+- **待人工处理（唯一路径，账号侧操作）**：将昨日生成的公钥加入 GitHub（`fangyan607` 账号 Settings → SSH and GPG keys，或该仓库 Deploy keys 并勾选 Allow write access），此后一条 `git push origin-ssh main` 即可同步全部 7 个提交：
+  ```
+  ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC9DkdzrGgadq7dVM9bkZ5R7sJWZVqYXfipC7Lw1PaUK ubuntu@hermes-gbrain-sync
+  ```
+  （指纹 `SHA256:loWhaBfURx40L7m9S4H3Cb9V2sVgsFAu8zN9xWQfDcw`；私钥已在位、权限 600，注册后无需改动脚本）
+  - 替代方案：在 `~/.hermes/.env` 写入 `GITHUB_TOKEN=<PAT, repo scope>`，HTTPS 分支即可自动推送。
+- **风险提示**：远程备份已连续 3 天未更新，异地冗余暂停；本地仓库与索引完整，无数据丢失风险。
+
+#### ✅ 无损坏文档 / 无 git 冲突（质检通过）
+- 未发现 `<<<<<<<` / `>>>>>>>` 冲突标记（LLM-Wiki + GBrain 全量 grep 无命中）；无 `.git/MERGE_HEAD`、无 `rebase-merge`；提交后 `git status` 干净。
+- 3302 篇 `.md` 无 0 字节文件；无 `*~` / `.orig` / `.rej` / `.gitmerge*` 临时文件。
+- 5 篇缩名后的法律文档（09-11 修复项）正常在库，法律库稳定 2565 篇，无 `File name too long`。
+- 今日提交的 16 个文件未检出 `ghp_` / `github_pat_` / `sk-` 真实凭据。
+
+### 提交内容分析（16 文件）
+- 13 个 `GBrain/_index/*.md` 与 `向量索引.json` / `知识图谱.json` 属**纯时间戳变更**（逐文件 diff 校验，除 `updated:` 字段外内容字节一致）。
+- 实质变更 3 个：`.gbrain_state.json`（扫描状态）、`_index/README.md`、`日常整理日志.md`（+33 行，22:00 整理任务追加「2026-09-13 GBrain 知识整理报告」：实体合计 41，3 个损坏 Wikilink：`[[劳动法]]` / `[[物权法]]` / `[[刑事诉讼法]]`）。
+- **LLM-Wiki 正文零变更**：本次无新增/修改知识文档，本次提交不涉新知识入库。
+
+---
+
+*生成时间: 2026-09-13 23:05 | 下次更新: 2026-09-14 23:00*
+
+---
+
 ## 2026-09-12 23:00 — 第5次每日更新
 
 ### 执行结果
