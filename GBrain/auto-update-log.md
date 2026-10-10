@@ -1,5 +1,46 @@
 # GBrain + LLM-Wiki 自动更新日志
 
+## 2026-10-10 23:00 — 第33次每日更新
+
+### 执行结果
+| 项目 | 状态 | 说明 |
+|------|------|------|
+| 脚本执行 | ✅ 成功 (exit_code=0) | `gbrain-dual-update.py` 三步全绿，无异常、无冲突 |
+| 增量扫描 | ✅ 完成 (9.4s) | 3302 篇，新增 0 / 变更 0 / 跳过 3302（LLM-Wiki 正文当日无变化） |
+| 本地提交 | ✅ 成功 | commit `d760628`（17 文件，**+78/−16**） |
+| Git Push | ✅ 成功（**连续 27 天**正常） | `push via origin-ssh (17 files, 4.9s)`；`git ls-remote` 双路径复核：`origin-ssh/main` = `origin/main` = 本地 `HEAD` = `d7606289f933d58037c3c9203bf28bd3eace913e`，逐字符一致 |
+| 知识图谱 | ✅ | 3900 节点 / 5477 边（与昨日持平） |
+| 向量索引 | ✅ | 4884 关键词 / 3302 文档（5 顶层键） |
+| JSON 完整性 | ✅ | `知识图谱.json`(nodes/edges/stats/updated) / `向量索引.json`(type/total_docs/unique_terms/index/updated) / `.gbrain_state.json`(files/scanned_at/total_docs/total_domains) 全部 `json.load` 通过 |
+| 工作树 | ✅ 干净 | `git status --porcelain` 0 行；`git ls-files -u` 0 条；无 MERGE_HEAD / rebase-merge / rebase-apply |
+| 域分布 | 9 域（+2 全局索引文件） | 中国法律 2565 / 中医 274 / 心理学 270 / 道医全集 108 / 创造性思维 22 / 新科技与应用 22 / 学习方法 20 / 写作 13 / 桥域 6 |
+
+### ✅ 确定性修复连续第 23 日验证通过（稳定期继续成立）
+09-18 对 `gbrain_scanner.py` 的 4 处排序修复后，本次为**第二十三个自然日**，模式完全复现：
+- 提交仍为 **17 文件**，`git show --numstat HEAD` 逐文件统计为 **15 个产物**（12 个 `_index/*.md` = 13 行 + 3 个 JSON = 3 行）+ **2 个实质内容文件**（`2026-10-10.md` **+29**、`GBrain/日常整理日志.md` **+33**，合计 62 行真实内容），总变更量维持 **+78/−16**（与 09-19～10-09 完全等值）。
+- **LLM-Wiki 正文零变更**：`git show --stat HEAD -- LLM-Wiki` **无输出**，与「新增 0 / 变更 0」一致。
+
+### 质检结果（无损坏文档 / 无 git 冲突）
+- ✅ 冲突标记：`grep -rlE '^(<<<<<<<|>>>>>>>) '` 全仓 `.md`，**零命中**（count=0）
+- ✅ 空文件：`LLM-Wiki` 全部 `.md` 零字节文件 **0 命中**
+- ✅ 编码完整性：LLM-Wiki 全部 **3302 篇 `.md` 逐篇 `utf-8` 解码复算，0 篇失败**
+- ✅ 临时/损坏文件：`*~` / `*.orig` / `*.rej` / `.gitmerge*` 全仓 **零命中**
+- ✅ 合并状态：无 `MERGE_HEAD` / `rebase-merge` / `rebase-apply`；提交后 `git status` 干净
+- ✅ 敏感串：本次提交 diff 中 `ghp_` / `github_pat_` / `sk-` 真实凭据 **零命中**（count=0）
+- ✅ 法律库条目数实测 `find LLM-Wiki/中国法律书库 -name "*.md" | wc -l` = **2565 篇**，与域分布表及 `--status` 输出三方一致
+- ✅ 三份 JSON 均 `json.load` 通过，节点/边/关键词计数与状态报告口径一致
+
+### 提交内容分析（17 文件）
+- **实质变更 2 个**：`2026-10-10.md`（+29 行，08:00 生成的当日日报骨架）、`GBrain/日常整理日志.md`（+33 行，22:00 组织器报告）。**LLM-Wiki 正文零变更**。
+- **产物变更 15 个**：12 个 `GBrain/_index/*.md`（含 README / 未分类 / 总索引，其中总索引 2/2）+ `向量索引.json` + `知识图谱.json` + `.gbrain_state.json`，**全部仅时间戳行**。
+
+### 观察项（非阻塞，无需处理）
+1. **本地 remote-tracking ref 陈旧（一次性假警报）**：脚本 push 只走 `origin-ssh`，`origin`（HTTPS/ghfast.top）的**本地 tracking ref** 未随之刷新，`git status -sb` 一度显示 `ahead 1`。经 `git ls-remote` 复核，远端 `origin/main` 实为 `d760628`（与 HEAD 一致）——两 remote 指向同一 GitHub 仓库，push 到任一即同步。已 `git fetch origin` 刷新本地 tracking ref，三处 ref 恢复一致（`d676399`），非故障。
+2. **脚本自身计数不一致（纯显示问题，连续第 24 天）**：步骤1 输出 `知识域: 10`，步骤3 输出 `知识域数: 9` —— 两条路径对「是否计入 2 个全局索引文件」口径不同。实际为 9 域 + 2 个全局索引文件。不影响索引正确性。
+3. **陈旧产物（连续第 23 天，体积未变）**：`.broken_links.txt`(634850 B) / `.orphan_notes.txt`(398287 B) 位于仓库根目录，mtime 停留 `2026-07-05 21:28`（合计约 1.5 MB），**已被 git 跟踪**，非本脚本产物；建议 `git rm` 以减小仓库体积。
+
+---
+
 ## 2026-10-09 23:00 — 第32次每日更新
 
 ### 执行结果
