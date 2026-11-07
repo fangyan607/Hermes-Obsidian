@@ -1,5 +1,48 @@
 # GBrain + LLM-Wiki 自动更新日志
 
+## 2026-11-07 23:00 — 第61次每日更新
+
+### 执行结果
+| 项目 | 状态 | 说明 |
+|------|------|------|
+| 脚本执行 | ✅ 成功 (exit_code=0) | `gbrain-dual-update.py` 三步全绿，单命令跑完，无人工干预 |
+| 增量扫描 | ✅ 完成 (9.7s) | 3302 篇，新增 0 / 变更 0 / 跳过 3302 |
+| 本地提交 | ✅ 成功 | commit `c3b5403a`（17 文件，**+78/−49**） |
+| Git Push | ✅ 成功（首尝试即通） | `✅ Git push 成功 via origin-ssh (尝试1, 17 files, 8.9s)`；重试逻辑未触发 |
+| 远程复核 | ✅ 一致 | 脚本内建 `✅ 远程复核一致 (c3b5403a7a34)`；手工 `git ls-remote origin-ssh main` = `c3b5403a7a34` = 本地 `HEAD` |
+| 知识图谱 | ✅ | 3900 节点 / 5477 边（连续第 27 日持平） |
+| 向量索引 | ✅ | `type`=inverted_index / `index` 4884 项 / `total_docs`=3302 |
+| JSON 完整性 | ✅ | `知识图谱.json`(nodes 3900/edges 5477) / `向量索引.json`(index 4884) / `.gbrain_state.json`(files 3302/total_docs 3302/total_domains 9/`scanned_at`=1794063617.13) 三份 `json.load` 全部通过，`updated`=2026-11-07 23:00:17 |
+| 工作树 | ✅ 干净 | 提交后 `git status --porcelain` **0 行**；`git ls-files -u` 无未合并条目 |
+| 域分布 | 9 域（+2 全局索引文件） | 中国法律 2565 / 中医 274 / 心理学 270 / 道医全集 108 / 新科技与应用 22 / 创造性思维 22 / 学习方法 20 / 写作 13 / 桥域 6 = 3300，加根目录 2 个全局索引文件 = 3302，与 `find LLM-Wiki -name '*.md'` 逐数一致 |
+
+### 异常记录：0 项阻塞（无损坏、无冲突）
+
+- ✅ 空文件（0 字节 `.md`）：**0 个**（全库 3302 篇）
+- ✅ 极端小文档（<20 字节）：**0 个**
+- ✅ 超长文件名（>240 字节）：**0 个**（历史 5 篇法律库缺档问题保持修复状态）
+- ✅ Git 冲突标记 `^<<<<<<<` / `^>>>>>>>`：**0 处**（LLM-Wiki + GBrain 全量 grep）
+- ✅ 未合并条目 `git ls-files -u`：**0 条**
+- ✅ 临时文件 `*~` / `.gitmerge*` / `.orig` / `.rej`：**0 个**
+- ✅ 本次 diff 敏感串（`ghp_` / `github_pat_` / `sk-`）：**0 命中**
+- ✅ 抽样 UTF-8 解码（前 400 篇）：**0 异常**；全库无解析报错输出
+
+### 本日新发现并已修复（1 项）
+
+1. **commit-graph 陈旧损坏 → 已修复**：`git fsck` 报 `commit-graph parent list for commit 9206ea33… is too long`。根因是 `.git/objects/info/commit-graphs/` 内 2026-06-23 生成的两层 split chain 过期（当前历史早已远超该层）。处理：删除旧 chain 文件后 `git commit-graph write --reachable` 重建。复核 `git commit-graph verify` **无输出（通过）**，`git fsck` 现仅剩 1 条 `dangling commit 4e2729cd`（历史 amend 残留，无害，未做 gc）。此问题不影响索引正确性，属仓库维护项。
+
+### 非阻塞观察项（持续）
+
+1. **知识库正文连续 57 日零变更（重要）**：本次提交 `LLM-Wiki/` 文件 **0 个**；`git log -1 -- LLM-Wiki/` 仍为 `5c4e216e`（2026-09-11 23:07）。每日更新实质为「索引刷新 + 时间戳提交」，17 文件全部是索引/JSON/日志/日记。建议：无入库需求则降频至每周一次；需入库则接通上游（书库导入 / vault sync）。
+2. **脚本计数口径不一致（持续）**：步骤 1 输出「知识域: 10」、步骤 3 输出「知识域数: 9」（差值为是否计入根目录全局索引文件）。不影响正确性，`.gbrain_state.json` 记 9。
+3. **陈旧产物未清理（持续）**：`.broken_links.txt`(634850 B) / `.orphan_notes.txt`(398287 B)，mtime 仍为 `2026-07-05 21:28`（已过期 125 天），仍被 git 跟踪。建议 `git rm` 或加入 `.gitignore`。
+4. **`origin/main` 跟踪 ref 落后（持续）**：`rev-list --left-right origin/main...HEAD` = `0 1`；主更新走 `origin-ssh` 通道，判断推送状态以 `origin-ssh/main` 为准，今日已核对一致。
+5. **远程单点风险（持续）**：SSH Deploy Key 仍是唯一验证过的写入通道（`origin` 直连 github.com 被 GFW 阻断）。今日首尝试 8.9s 即通；第二写入通道仍待 `GITHUB_TOKEN`。
+
+**17 文件构成**：`2026-11-07.md`（新建日记，+29）+ 12 个 `GBrain/_index/*.md`（时间戳/计数行变动，`总索引.md` 为 4 行、余 2 行）+ 3 个 GBrain JSON（各 2 行）+ `GBrain/日常整理日志.md`（22:00 组织器前置写入，66 行变动），合计 +78/−49。
+
+---
+
 ## 2026-11-06 23:00 — 第60次每日更新
 
 ### 执行结果
